@@ -1,0 +1,25 @@
+/* Wykorzystaj zmienne CSS, przykładowe uycie: 
+color: var(--primary-color); */
+
+:root {
+  --font: "Roboto", sans-serif;
+  --bg-gradient: linear-gradient(135deg, #5d5f73 0%, #2f2f3d 100%);
+  --primary-color: white;
+  --secondary-color: #d9dfe7;
+
+  --orange-gradient: linear-gradient(180deg, #ecb920 0%, #e2b11c 100%);
+  --turquoise-gradient: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+  --light-blue-gradient: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+  --gray-gradient: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+
+  --orange-shadow: rgba(236, 185, 32, 0.5);
+  --turquoise-shadow: rgba(85, 220, 231, 0.5);
+  --light-blue-shadow: rgba(107, 223, 255, 0.5);
+  --gray-shadow: rgba(191, 206, 220, 0.5);
+
+  --most-popular-bg: rgba(0, 0, 0, 0.1);
+  --button-hover-bg: #ffffff3d;
+
+  --card-width: 286px;
+  --card-height: 620px;
+}
